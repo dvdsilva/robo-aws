@@ -1,0 +1,11 @@
+{
+    "mcpServers": {
+      "aws-diagnostics-readonly": {
+        "command": "${workspaceFolder}/aws_diag_mcp/.venv/bin/python",
+        "args": ["${workspaceFolder}/aws_diag_mcp/server.py"],
+        "env": {
+          "AWS_REGION": "us-east-1"
+        }
+      }
+    }
+  }

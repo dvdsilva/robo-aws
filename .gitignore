@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# IDE
+.idea/
+*.swp
+*.swo
+
+# Env / secrets
+.env
+.env.local
+*.pem
